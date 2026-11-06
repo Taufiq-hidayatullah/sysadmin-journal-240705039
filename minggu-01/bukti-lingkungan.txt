@@ -1,0 +1,31 @@
+ Static hostname: sysadmin-lab
+       Icon name: computer-vm
+         Chassis: vm 🖴
+      Machine ID: e022dcba0fc040c89be05dc71e86f798
+         Boot ID: c9902d4f5a71450f9c052257ab8f6b32
+  Virtualization: oracle
+Operating System: Ubuntu 24.04.5 LTS
+          Kernel: Linux 6.8.0-147-generic
+    Architecture: x86-64
+ Hardware Vendor: innotek GmbH
+  Hardware Model: VirtualBox
+Firmware Version: VirtualBox
+   Firmware Date: Fri 2006-12-01
+    Firmware Age: 19y 11month 5d
+
+NAME                      MAJ:MIN RM  SIZE RO TYPE MOUNTPOINTS
+sda                         8:0    0   25G  0 disk 
+├─sda1                      8:1    0    1M  0 part 
+├─sda2                      8:2    0    2G  0 part /boot
+└─sda3                      8:3    0   23G  0 part 
+  └─ubuntu--vg-ubuntu--lv 252:0    0 11.5G  0 lvm  /
+sr0                        11:0    1 1024M  1 rom  
+
+  VG        #PV #LV #SN Attr   VSize   VFree 
+  ubuntu-vg   1   1   0 wz--n- <23.00g 11.50g
+
+  LV        VG        Attr       LSize   Pool Origin Data%  Meta%  Move Log Cpy%Sync Convert
+  ubuntu-lv ubuntu-vg -wi-ao---- <11.50g                                                    
+
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+enp0s3           UP             10.0.2.15/24 metric 100 fd17:625c:f037:2:a00:27ff:feff:98c7/64 fe80::a00:27ff:feff:98c7/64 
